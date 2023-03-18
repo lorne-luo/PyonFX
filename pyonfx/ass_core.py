@@ -87,6 +87,7 @@ class Style:
         encoding (int): Codepage used to map codepoints to glyphs
     """
 
+    name: str
     fontname: str
     fontsize: float
     color1: str
@@ -502,6 +503,7 @@ class Ass:
                     style = [el for el in style[1].split(",")]
                     tmp = Style()
 
+                    tmp.name = style[0]
                     tmp.fontname = style[1]
                     tmp.fontsize = float(style[2])
 

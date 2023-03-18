@@ -137,3 +137,4 @@ examples/scripts/
 
 # VS Code stuff
 .vscode/
+.idea/
